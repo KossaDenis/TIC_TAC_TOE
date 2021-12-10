@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+body{
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1150px;
+    margin-left:auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.field{
+    width: 200px;
+    height: 200px;
+    display: block;
+    text-align: center;
+    font-size: 150px;
+    padding-top: 30px;
+}
+.playing_field{
+    display: flex;
+    justify-content:center;
+    padding-top: 2em;
+   
+}
+#field-1{
+    border-right: solid;
+    border-bottom: solid;
+}
+#field-2{
+    border-right: solid;
+    border-bottom: solid;
+}
+#field-3{
+    border-right: solid;
+}
+#field-4{
+    border-right: solid;
+    border-bottom: solid;
+}
+#field-5{
+    border-right: solid;
+    border-bottom: solid;
+}
+#field-6{
+    border-right: solid;
+}
+#field-7{
+    border-bottom: solid;
+}
+#field-8{
+    border-bottom: solid;
+}
